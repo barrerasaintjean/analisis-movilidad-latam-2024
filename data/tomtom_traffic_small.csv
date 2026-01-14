@@ -1,0 +1,3 @@
+# En VS Code, haz esto para achicar el archivo
+traffic_small = traffic.head(10000) 
+traffic_small.to_csv('C:/Users/pasty/Documents/datasets/tomtom_traffic.csv', index=False)
